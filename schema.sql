@@ -1,5 +1,3 @@
---SQL
-
 -- Creating tables for PH-EmployeeDB
 CREATE TABLE departments (
      dept_no VARCHAR(4) NOT NULL,
@@ -50,3 +48,5 @@ CREATE TABLE titles (
 );
 
 SELECT * FROM departments;
+
+
