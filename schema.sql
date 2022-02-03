@@ -229,3 +229,16 @@ INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
 
 --Retiring Sales Department
+SELECT ri.emp_no,
+	ri.first_name,
+	ri.last_name,
+	de.dept_no
+INTO sales_retirees
+FROM retirement_info as ri
+LEFT JOIN departments as de
+on (de.dept_no = de.dept_no)
+WHERE de.dept_no = 'd007';
+
+SELECT * FROM sales_retirees;
+
+DROP TABLE sales_retirees CASCADE;
