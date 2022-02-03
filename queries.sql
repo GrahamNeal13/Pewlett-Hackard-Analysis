@@ -1,9 +1,11 @@
 --SQl
 --Show the output from imported data
 SELECT * FROM departments;
+
 --if error occurs run this to remove table then 
 --rerun above code to create new table
 DROP TABLE dept_emp CASCADE;
+
 --Find eligible employees for retirement
 SELECT first_name, last_name
 FROM employees
