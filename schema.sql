@@ -241,4 +241,14 @@ WHERE de.dept_no = 'd007';
 
 SELECT * FROM sales_retirees;
 
-DROP TABLE sales_retirees CASCADE;
+--Retiring Sales & Development Department
+SELECT ri.emp_no,
+	ri.first_name,
+	ri.last_name,
+	de.dept_no
+INTO sales_dev_retirees
+FROM retirement_info as ri
+LEFT JOIN departments as de
+on (de.dept_no = de.dept_no)
+WHERE de.dept_no IN ('d005','d007');
+
