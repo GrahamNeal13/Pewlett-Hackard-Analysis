@@ -7,12 +7,15 @@ The purpose of this analysis is to determine the number of retiring employees pe
 # Results
 ## Results of the Queries:
 1. The following image contains the breakdown of each title and the number of eligible retiring employees. 
+
 ![Retiring_Titles.png](https://github.com/GrahamNeal13/Pewlett-Hackard-Analysis/blob/main/Retiring_Titles.png)
 
 2. This image shows the breakdown of per department eligible retirees.  The Departments are d001: Marketing, d002: Finance, d003: Human Resources, d004: Production, d005: Development, d006: Quality Management, d007: Sales, d008: Research, d009: Customer Service.  
+
 ![retire_by_dept.png](https://github.com/GrahamNeal13/Pewlett-Hackard-Analysis/blob/main/retire_by_dept.png)
 
 3. In order to see the database relations an ERD was created and here we can see the various relationships between tables.  
+
 ![EmployeeDB.png](https://github.com/GrahamNeal13/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
 4. Within the mentorship eligibility csv file we have a list of names for our experienced staff members who can be approached to join the new mentorship program.  
